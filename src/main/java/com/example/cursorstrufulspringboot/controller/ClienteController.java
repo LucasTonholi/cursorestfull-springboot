@@ -9,7 +9,7 @@ public class ClienteController {
 
     @GetMapping("/cliente")
     public String getCliente(){
-        return "Vai retornar todos os clientes";
+        return "Vai retornar todos os clientes da base";
     }
 
     @GetMapping("/cliente/{codigo}")
